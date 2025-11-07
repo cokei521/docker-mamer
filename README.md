@@ -1,6 +1,6 @@
 # **Docker 自动化管理脚本大全**
 
-基本覆盖日常 Docker 运维场景。
+基本日常 Docker 运维场景。
 
 * * *
 
@@ -13,7 +13,7 @@
 #!/bin/bash
 
 # Docker 管理脚本集合（增强版）
-# 用法: ./docker-manager.sh [command] [options]
+# 用法: ./docker-manager.sh [command] [options] 
 
 set -e
 # 彩色输出
@@ -247,19 +247,19 @@ exit 0
 
 #  **使用说明**
 
-1.  保存脚本为 docker-manager.sh
+1.  保存脚本
     
 2.  添加执行权限：
     
 
     
-    chmod +x docker-manager.sh
+    chmod +x docker-manager.sh  
     
 
 3.  运行脚本：
     
 
-    ./docker-manager.sh [command]
+    ./docker-manager.sh [command] 
 
 * * *
 
